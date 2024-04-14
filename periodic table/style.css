@@ -1,0 +1,234 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+.element-color-name{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    color: #fcfcfc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 5px;
+    margin-top: 40px;
+}
+.element-metal{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.box-color-yellow,.box-color, .box-color-pink, .box-color-orange, .box-color-blue, .box-color-violet, .box-color-dark, .box-color-semi, .box-color-gray, .box-color-green{
+    background-color: #0079FF;  
+    height: 12px;
+    width: 12px;
+    margin-right: 12px;
+}
+.box-color-yellow{
+    background-color: #F6FA70;
+}
+.box-color-pink{
+    background-color: #F11A7B;
+}
+.box-color-orange{
+    background-color: #FF8400;
+}
+.box-color-blue{
+    background-color: #80B3FF;
+}
+.box-color-violet{
+    background-color: #E26EE5;
+}
+.box-color-dark{
+    background-color: #bda2a2;
+}
+.box-color-semi{
+    background-color: #FF4949;
+}
+.box-color-gray{
+    background-color: #fcfcfc;
+}
+.box-color-green{
+    background-color: #38E54D;
+}
+.periodic-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-content: center;
+    column-gap: 2px;
+    row-gap: 2px;
+    width: 70%;
+}
+.element, .element-yellow, .element-orange, .element-dark, .element-gray, .element-pink, .element-blue, .element-violet, .element-semi, .element-green, .element-hydrogen{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    color: #0079FF;
+    outline: 1px solid rgb(65, 65, 65);
+    outline-offset: -1px;
+    transition: all 0.30s;
+    cursor: pointer;
+}
+.element-number{
+    height: 15%;
+}
+.element-number p{
+    font-size: 9px;
+}
+.element-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    
+}
+.element-info h1{
+    font-size: 23px;
+}
+.element-name{
+    font-size: 9px;
+}
+.element-mass{
+    font-size: 7px;
+}
+.element:hover{
+    background-color: #0079FF;
+    color: #1f1f1f;
+    outline: none;
+}
+.element:active{
+    opacity: 0.5;
+}
+
+/*YELLOW ELEMENT*/
+.element-yellow:hover{
+    background-color: #F6FA70;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-yellow:active{
+    opacity: 0.5;
+}
+.element-yellow{
+    color: #F6FA70;
+}
+
+/*ORANGE ELEMENT*/
+.element-orange:hover{
+    background-color: #FF8400;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-orange:active{
+    opacity: 0.5;
+}
+.element-orange{
+    color: #FF8400;
+}
+
+/*GRAY ELEMENT*/
+.element-gray:hover{
+    background-color: #fcfcfc;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-gray:active{
+    opacity: 0.5;
+}
+.element-gray{
+    color: #fcfcfc;
+}
+
+/*DARK ELEMENT*/
+.element-dark:hover{
+    background-color: #bda2a2;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-dark:active{
+    opacity: 0.5;
+}
+.element-dark{
+    color: #bda2a2;
+}
+
+/*PINK ELEMENT*/
+.element-pink:hover{
+    background-color: #F11A7B;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-pink:active{
+    opacity: 0.5;
+}
+.element-pink{
+    color: #F11A7B;
+}
+
+/*BLUE ELEMENT*/
+.element-blue:hover{
+    background-color: #80B3FF;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-blue:active{
+    opacity: 0.5;
+}
+.element-blue{
+    color: #80B3FF;
+}
+
+/*VIOLET ELEMENT*/
+.element-violet:hover{
+    background-color: #E26EE5;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-violet:active{
+    opacity: 0.5;
+}
+.element-violet{
+    color: #E26EE5;
+}
+
+/*SEMI-ORANGE ELEMENT*/
+.element-semi:hover{
+    background-color: #FF4949;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-semi:active{
+    opacity: 0.5;
+}
+.element-semi{
+    color: #FF4949;
+}
+
+/*GREEN ELEMENT*/
+.element-green:hover{
+    background-color: #38E54D;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-green:active{
+    opacity: 0.5;
+}
+.element-green{
+    color: #38E54D;
+}
+
+/*HYDROGEN ELEMENT*/
+.element-hydrogen:hover{
+    background-color: #00DFA2;
+    color: #1f1f1f;
+    outline: none;
+}
+.element-hydrogen:active{
+    opacity: 0.5;
+}
+.element-hydrogen{
+    color: #00DFA2;
+}

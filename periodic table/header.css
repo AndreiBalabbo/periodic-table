@@ -1,0 +1,34 @@
+.header{
+    background-color: transparent;
+    height: 90px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    color: #fcfcfc;
+    border-bottom:  solid #0079FF;
+}
+.span{
+    font-weight: 800;
+    color: #0079FF;
+}
+.logo{
+    width: 60px;
+    margin-right: 8px;
+}
+.head-right h2{
+    font-weight: 500;
+}
+.head-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+    color: #fcfcfc;
+    font-size: 22px;
+    font-weight: 500;
+}
