@@ -1,0 +1,36 @@
+.header{
+    background-color: #fcfcfc;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 56px 0 56px;
+    color: #1f1f1f;
+    border-bottom:  solid #0079FF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.span{
+    font-weight: 800;
+    color: #0079FF;
+}
+.logo{
+    width: 60px;
+    margin-right: 8px;
+}
+.head-right h2{
+    font-weight: 500;
+}
+.head-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+    color: #1f1f1f;
+    font-size: 22px;
+    font-weight: 500;
+}

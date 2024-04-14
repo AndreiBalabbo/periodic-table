@@ -1,0 +1,153 @@
+.summary-container{
+    width: 70%;
+    padding: 0 56px 0 56px;
+    color: #1f1f1f;
+    scroll-margin-top: 90px;
+}
+.periodic-link{
+    display: flex;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    gap: 6px;
+    font-size: 14px;
+}
+.periodic-table{
+    font-weight: 500;
+}
+.periodic-link img{
+    height: 8px;
+}
+.title-summary{
+    display: flex;
+    flex-direction: column;
+}
+.title-element{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #0079FF;
+}
+.summary-element{
+    padding: 12px 12px;
+    border-left: 1px solid rgb(212, 212, 212);
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.ts-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    column-gap: 24px;
+    margin-bottom: 32px;
+}
+.element-box{
+    background-color: #0079FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.element-box p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.element-box h4{
+    font-size: 80px;
+}
+
+.element-info{
+    padding: 44px 0;
+}
+.info-text{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    border-bottom: solid 1px rgb(212, 212, 212);
+    margin-bottom: 8px;
+}
+.info-main{
+    flex: 1;
+}
+.info-desc{
+    flex: 1;
+}
+.info-text h3, .info-text p{
+    font-size: 14px;
+    padding: 0 14px;
+    margin-bottom: 4px;
+}
+
+.identifiers-main{
+    border-bottom: 5px solid #0079FF;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.identifiers{
+    border-bottom: 3px solid #0079FF;
+    margin-bottom: 16px;
+}
+.identifiers-parts p{
+    margin-left: 46px;
+    margin-top: 4px;
+}
+.identifiers-parts{
+    margin-bottom: 46px;
+}
+.identifiers-title h1{
+    font-size: 28px;
+}
+.identifiers-title h2{
+    font-weight: 500;
+}
+.ar-parts{
+    margin-bottom: 32px;
+}
+.name{
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.desc{
+    margin-bottom: 12px;
+}
+.italic{
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 18px;
+}
+.selected-text{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: solid 1px rgb(212, 212, 212);
+}
+.selected{
+    border-bottom: solid 2px rgb(212, 212, 212);
+    cursor: pointer;
+}
+.select-fix{
+    position: fixed;
+    width: 25%;
+    right: 100px;
+    margin-top: 50px;
+}
+
+.periodic-table{
+    color: #0079FF;
+    transition: all 0.25s;
+}
+.periodic-table:hover{
+    text-decoration: underline 1.5px;
+}
+a{
+    color: #1f1f1f;
+    transition: all 0.25s;
+}
+a:hover{
+    color: #0079FF;
+}
+a:active{
+    opacity: 0.5;
+}
